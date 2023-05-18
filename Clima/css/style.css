@@ -1,0 +1,120 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Open Sans';
+
+}
+
+
+.btn-busca img{
+    width:20px;
+
+}
+
+
+body{
+
+    background:url("https://source.unsplash.com/1920x1080/?landscape");
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    width: 100vw;
+
+    background-size: cover;
+
+}
+
+
+.caixa-maior{
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius:25px;
+    width: 95%;
+    max-width: 450px;
+
+
+}
+
+
+.caixa-media{
+    margin-top:30px;
+
+}
+
+
+.caixa-maior input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background: #7c7c7c2b;
+    width: calc(100%-50px);
+
+}
+
+
+.btn-busca{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:50px;
+    background: #ebd6d62b;
+    cursor: pointer;
+    float: right;
+
+}
+
+
+.cidade{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+
+.tempo{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    gap: 20px;
+
+}
+
+
+.umidade{
+    color: white;
+    margin-top: 20px;
+
+}
+
+
+.texto-prev{
+    text-transform: capitalize;
+
+}
+
+.caixa-maior input::placeholder{
+    color:rgb(255, 255, 255);
+}
